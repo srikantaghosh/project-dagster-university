@@ -1,10 +1,11 @@
-# Dagster University
+# Dagster DBT Project
 
-Welcome to [Dagster University](https://courses.dagster.io/). This contains all the courses offered by Dagster. Within each project you will find the starting point for the course alongside the completed code for each lesson. Refer to the `README.md` of the particular course for more details.
+This repository contains my completed implementation of the Dagster and dbt integration course from Dagster University.
 
-| Course Directory | Course Page |
-|-------------|-------------|
-| [`Dagster Essentials`](dagster_university/dagster_essentials/README.md) | [Dagster Essentials Course](https://courses.dagster.io/courses/dagster-essentials) |
-| [`Dagster & dbt`](dagster_university/dagster_and_dbt/README.md) | [Dagster + dbt Course](https://courses.dagster.io/courses/dagster-dbt) |
-| [`Dagster & ETL`](dagster_university/dagster_and_etl/README.md) | |
-| [`Testing with Dagster`](dagster_university/dagster_testing/README.md) | [Testing with Dagster Course](https://courses.dagster.io/courses/dagster-testing) |
+Throughout this project, I have successfully covered the key objectives, including:
+	•	Integrating a dbt project with Dagster.
+	•	Loading dbt models as Dagster assets.
+	•	Building dependencies between assets within Dagster.
+	•	Preparing the project structure for production-grade deployment.
+
+The code reflects a functional pipeline where dbt and Dagster work seamlessly together for data transformation and orchestration
